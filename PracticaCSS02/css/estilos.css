@@ -1,0 +1,57 @@
+body{
+    font-size: 16px; /* 1em */
+margin: 0px auto;
+/* Por recomendacion del cliente*/
+max-width: 1078px;
+min-width: 1078px;
+}
+header input{
+    float: right;
+    margin-right: -230px;
+    margin-top: 15px;
+}
+header nav{
+    margin-left: 220px;
+}
+header nav ul li{
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px;
+    /* text-decoration: underline; */
+}
+#gramthams{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#paint{
+    float: right;
+}
+#primerSeccion{
+    margin-top: 10%;
+    height: 318px;
+}
+#primerSeccion article{
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+#secc01art01{
+    margin-left: 30px;
+    width: 60%;
+}
+#secc01art02{
+    margin-left: 50px;
+    width: 30%;
+}
+.colorrosa{
+    color: #FF0099;
+}
+.letragrande{
+    font-size: 3.5em;
+}
+.nito{
+    font-weight: bold;
+}

@@ -1,0 +1,220 @@
+
+/* Estilos */
+
+body{
+    font-size: 16px;
+    font-family: Arial;
+    max-width: 1024px;
+    min-width: 1024px;
+    margin: 0px auto;
+
+}
+
+header #redes div{
+    margin-right: 16px;
+    width: 24px;
+    display: inline-block;
+}
+
+#logos{
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+#logo{
+    width: 220px;
+}
+
+#redes{    
+    margin-top: -93px;
+    float: right;
+    margin-right: 14px;
+}
+
+#imgThema{
+    width: 280px;
+}
+
+header nav{
+    border-radius: 5px;
+}
+
+header nav ul{
+    margin-bottom: 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 16px 10px 16px 0px;
+}
+
+header div img{
+    display: block;
+}
+
+main{
+    margin: 0px auto;
+    max-width: 95%;
+    box-shadow: 0px 14px 9px 15px rgba(99,99,99,0.26);
+    -webkit-box-shadow: 0px 14px 9px 15px rgba(99,99,99,0.26);
+    -moz-box-shadow: 0px 14px 9px 15px rgba(99,99,99,0.26);
+}
+
+
+#main{
+    display: inline-block;
+    margin: 19px 5px 0px 13px;
+    width: 63%;
+}
+
+#main section{
+    border-bottom: 1px solid lightgray;
+}
+
+#Limones{
+    width: 95%;
+}
+
+
+#Arbolito article img{
+    border: 6px solid lightgray;
+    width: 26%;
+    display: inline-block;
+}
+
+.BackgroundNavNaranja{
+    background: linear-gradient(#f8760c 5%, #ffac79 15%, #dd5901 50%);
+}
+
+.letrablanca{
+    color: white;
+}
+
+.letramediana{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.letrachica{
+    font-size: 0.8em;
+}
+
+.Go{
+    margin-bottom: 12px;
+}
+.Referencias{
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    width: 65%;
+}
+
+.Referencias input[type="button"]{
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-family: Arial;
+    margin: 15px 0px 0px;
+    padding: 7px;
+}
+
+.Refer{
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px -4px rgb(115, 115, 115);
+    margin-bottom: -5px;
+    padding: 5px 0px;
+    text-indent: 10px;
+}
+
+.titulo{
+    color: gray;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.referencias{
+    color: gray;
+    font-style: italic;
+}
+
+aside{
+    display: inline-block;
+    margin-top: 43px;
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+}
+
+aside section article{
+    border: 1px solid lightgray;
+    box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.18);
+    -webkit-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.18);
+    -moz-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.18);
+    border-radius: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+aside section article span{
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: -3px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+aside section article img{
+    display: inline-block;
+    width: 48%;
+}
+
+#Search{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+aside section article div{
+    border-radius: 10px;
+}
+
+aside section article div input{
+    border-radius: 10px;
+    font-family: Arial;
+}
+
+aside section article div input:last-child{
+    font-size: 0.6em;
+}
+aside section article div input[type="submit"]{
+    background-color: darkgray;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    margin: 5px 0px;
+    border: 1.5px solid gray;
+}
+
+aside section article div input[type="search"]{
+    border: 1px solid gray;
+    text-indent: 5px;
+    line-height: 1.6em;
+    margin: 5px 0px;
+    width: 83%;
+}
+
+aside section article ul{
+    text-align: left;
+}
+
+aside section article ul li{
+    border-bottom: 1.5px dotted rgb(80, 80, 80);
+    width: 90%;
+    padding: 8px 0px 3px 0px;
+}

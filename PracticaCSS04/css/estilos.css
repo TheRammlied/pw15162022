@@ -1,0 +1,26 @@
+body{
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    /* Por recomendacion del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
+}
+header{
+    text-align: center;
+}
+div nav{
+    float: right;
+    margin-right: -230px;
+    margin-top: 15px;
+}
+#PrimerSeccion {
+    margin-top: 100px;
+}
+#PrimerSeccion img{
+text-align: center;
+width: 100px;
+}
+#Secc01Art01{
+    color: white;
+    background-color: aqua;
+}

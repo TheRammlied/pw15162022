@@ -1,26 +1,347 @@
 body{
-    font-size: 16px; /* 1em */
+    font-size: 18px; /* 1em */
     margin: 0px auto;
     /* Por recomendacion del cliente*/
-    max-width: 1078px;
-    min-width: 1078px;
+    max-width: 1100px;
+    min-width: 1100px;
 }
 header{
     text-align: center;
+    background-color: #245D92;
 }
-div nav{
+main{
+    margin: 0%;
+}
+#BlockDerecha{
+margin-left: 25.9%;
+margin-top: -73%;
+}
+#BlockIzquierda{
+    display: block;
+}
+#BarraOpciones{
     float: right;
-    margin-right: -230px;
+    background-color: #EFEFEF;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 20px;
+}
+#noti{
+    width: 120px;
+}
+#mens{
+    width: 95px;
+}
+#ajus{
+width: 80px;    
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    background-color: #EFEFEF;
+    padding-bottom: 10px;
+}
+
+aside section{
+    background-color: white;
+    box-shadow: 0px -2px 13px -8px rgb(115, 115, 115);
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside section span{
+    background-color: #245c92;
+    display: block;
+    margin: 0px auto;
+    padding: 10px 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside section span img{
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+aside section ul{
+    background-color: #1e4972;
+    height: 100%;
+    margin-top: 0px;
+    padding: 5px 0px 5px 15px;
+    list-style: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+aside section ul li{
+    margin-bottom: 5px;
+}
+
+aside section ul li:before{
+    content: "</>";
+}
+aside article{
+    width: 600px;
+}
+aside article img{
+    width: 250px;
+    height: 40px;
+    margin-right: 800px;
     margin-top: 15px;
 }
+#As01secc02{
+    text-align: left;
+}
+#As01secc02 article{
+    margin-right: 700px;
+}
 #PrimerSeccion {
-    margin-top: 100px;
+    margin-top: 95px;
+    text-align: right;
+}
+#PrimerSeccion p{
+    margin-right: 700px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #PrimerSeccion img{
 text-align: center;
 width: 100px;
 }
 #Secc01Art01{
+    display: inline-block;
     color: white;
-    background-color: aqua;
+    background-color: #19A820;
+    width: 200px;
+    height: 163px;
+    border-radius: 5px;
 }
+#Secc01Art01 span{
+display: inline-block;
+text-align: center
+}
+#Secc01Art01 img{
+    width: 94px;
+    margin-right: 24%; 
+}
+#Secc01Art02{
+    display: inline-block;
+    color: white;
+    background-color: RGB(25, 109, 171);
+    width: 200px;
+    height: 163px;
+    border-radius: 5px;
+}
+#Secc01Art02 span{
+display: inline-block;
+text-align: center
+}
+#Secc01Art02 img{
+    width: 85px;
+    margin-right: 26%; 
+}
+#Secc01Art03{
+    display: inline-block;
+    color: white;
+    background-color: #7E18A8;
+    width: 200px;
+    height: 163px;
+    border-radius: 5px;
+}
+#Secc01Art03 span{
+display: inline-block;
+text-align: center
+}
+#Secc01Art03 img{
+    width: 87px;
+    margin-right: 26%; 
+}
+#Secc01Art04{
+    display: inline-block;
+    color: white;
+    background-color: #A71A18;
+    width: 200px;
+    height: 163px;
+    border-radius: 5px;
+}
+#Secc01Art04 span{
+display: inline-block;
+text-align: center
+}
+#Secc01Art04 img{
+    width: 89px;
+    margin-right: 26%; 
+}
+#SegundaSeccion{
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+}
+#SegundaSeccion p{
+    margin-right: 750px;
+}
+#Secc02Art01 img{
+    width: 800px;
+margin-right: 15px;
+}
+#TerceraSeccion{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#TerceraSeccion p{
+    margin-right: 743px;
+}
+#Secc03Art01{
+    display: inline-block;
+    color: white;
+    background-color: #496AAE;
+    width: 200px;
+    height: 225px;
+    text-align: right; 
+    padding-bottom: 20px;
+    padding-top: 11.5px;
+}
+#Secc03Art01 span{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 30px; 
+    }
+    #Secc03Art01 img{
+        width: 170px;
+        margin-right: 12px; 
+        margin-top: 6px;
+    }
+    #Secc03Art01 button{
+        background-color: #5BBFE1;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        border-color: #5BBFE1;
+        padding-bottom: 8px;
+        margin-right: 30px; 
+    }
+    #Secc03Art01 button img{
+        width: 19px;
+        margin-right: 3px;
+        text-align: center;
+    }
+    #Secc03Art02{
+        display: inline-block;
+        color: white;
+        background-color: #496AAE;
+        width: 200px;
+        height: 225px;
+        text-align: right; 
+        padding-bottom: 31px;
+    }
+    #Secc03Art02 span{
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-right: 30px; 
+        }
+        #Secc03Art02 img{
+            width: 170px;
+            margin-right: 12px; 
+            margin-top: 6px;
+        }
+        #Secc03Art02 button{
+            background-color: #5BBFE1;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            border-color: #5BBFE1;
+            padding-bottom: 8px;
+            margin-right: 30px; 
+        }
+        #Secc03Art02 button img{
+            width: 19px;
+            margin-right: 3px;
+            text-align: center;
+        }
+        #Secc03Art03{
+            display: inline-block;
+            color: white;
+            background-color: #496AAE;
+            width: 200px;
+            height: 225px;
+            text-align: right; 
+            padding-bottom: 31px;
+        }
+        #Secc03Art03 span{
+            display: inline-block;
+            text-align: right;
+            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin-right: 30px; 
+            }
+            #Secc03Art03 img{
+                width: 170px;
+                margin-right: 12px; 
+                margin-top: 6px; 
+            }
+            #Secc03Art03 button{
+                background-color: #5BBFE1;
+                text-align: right;
+                color: white;
+                border-radius: 5px;
+                border-color: #5BBFE1;
+                padding-bottom: 8px;
+                margin-right: 30px; 
+            }
+            #Secc03Art03 button img{
+                width: 19px;
+                margin-right: 3px;
+                text-align: right;
+            }
+            #Secc03Art04{
+                display: inline-block;
+                color: white;
+                background-color: #496AAE;
+                width: 200px;
+                height: 225px;
+                text-align: right; 
+                padding-bottom: 29.5px;
+                margin-top: -200px;
+                padding-top: 1.5px;
+                margin-bottom: 5px;
+            }
+            #Secc03Art04 span{
+                display: inline-block;
+                text-align: right;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                margin-right: 30px; 
+                }
+                #Secc03Art04 img{
+                    width: 170px;
+                    margin-right: 12px; 
+                    margin-top: 6px; 
+                }
+                #Secc03Art04 button{
+                    background-color: #5BBFE1;
+                    text-align: right;
+                    color: white;
+                    border-radius: 5px;
+                    border-color: #5BBFE1;
+                    padding-bottom: 8px;
+                    margin-right: 30px; 
+                }
+                #Secc03Art04 button img{
+                    width: 19px;
+                    margin-right: 3px;
+                    text-align: right;
+                }
+                .letraBlanca {
+                    color: white;
+                }
